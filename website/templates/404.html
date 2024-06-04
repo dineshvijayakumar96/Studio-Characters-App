@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}404 - CHARACTERS{% endblock %}
+
+{% block content %}
+<main class="relative w-full h-screen flex justify-center items-center flex-col bg-linear-1">
+    <h1 class="text-9xl text-center font-metro-medium mb-5">404</h1>
+    <h2 class="text-9xl text-center font-metro-medium mb-5">Ooops!</h2>
+        <p class="text-center mb-5">Page not found</p>
+        <a href="{% url 'home' %}" class="inline-flex items-center px-10 py-3 text-sm font-medium uppercase tracking-widest text-center text-white bg-[#C28B6F] ring-1 ring-white rounded-md hover:bg-[#563e3b] hover:transition-all duration-500">Go Back Home</a>
+</main>
+{% endblock %}

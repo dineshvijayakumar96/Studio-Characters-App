@@ -1,0 +1,60 @@
+{% load static %}
+
+<!-- Navbar -->
+<nav class="navbar-top py-4 px-5 fixed top-0 w-full flex justify-center z-10">
+    <div class="container flex lg:justify-center md:justify-center justify-between items-center">
+
+        <!-- Desktop Menu -->
+        <div class="navbar-menu-desk hidden md:flex justify-between items-center space-x-4 w-10/12">
+            <a href="/#main-service" class="uppercase">Services</a>
+            <a href="/#section-3-main" class="uppercase">Portfolio</a>
+            <a title="CHARACTERS Logo" href="{% url 'home' %}" class="uppercase"><img width="130" src="{% static 'images/logo.svg' %}"
+                    alt="Characters Logo"></a>
+            <a href="/#section-4-main" class="uppercase">Packages</a>
+            <a href="/#footer-enquiry" class="uppercase">Contact us</a>
+        </div>
+
+        <!-- Mobile Menu Logo -->
+        <div class="md:hidden">
+            <a title="CHARACTERS Logo" href="{% url 'home' %}" class="uppercase"><img width="130" src="{% static 'images/logo.svg' %}"
+                    alt="Characters Logo"></a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+            <div id="opennav" class="burger">
+                <div class="strip-w strip-b burger-strip">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="navbar-collapse flex justify-center items-center p-5 sidenav" id="mySidenav">
+                <ul class="navbar-nav mb-2 mb-lg-0 uppercase font-medium">
+                    <li class="flex justify-center">
+                        <a class="relative overflow-hidden h-[2.5rem]" href="#" id="scrollto-main-service"><span
+                                class="m-navbar-menu relative top-[110%]">Services</span></a>
+                    </li>
+                    <li class="flex justify-center">
+                        <a class="relative overflow-hidden h-[2.5rem]" href="#" id="scrollto-section-3-main"><span
+                                class="m-navbar-menu relative top-[110%]">Portfolio</span></a>
+                    </li>
+                    <li class="flex justify-center">
+                        <a class="relative overflow-hidden h-[2.5rem]" href="#" id="scrollto-section-4-main"><span
+                                class="m-navbar-menu relative top-[110%]">Packages</span></a>
+                    </li>
+                    <li class="flex justify-center">
+                        <a class="relative overflow-hidden h-[2.5rem]" href="#" id="scrollto-section-6-main"><span
+                                class="m-navbar-menu relative top-[110%]">About us</span></a>
+                    </li>
+                    <li class="flex justify-center">
+                        <a class="relative overflow-hidden h-[2.5rem]" href="#" id="scrollto-footer-enquiry"><span
+                                class="m-navbar-menu relative top-[110%]">Contact us</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</nav>
+<!-- Navbar -->

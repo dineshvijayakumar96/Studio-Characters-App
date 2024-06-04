@@ -1,0 +1,574 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Website Design - CHARACTERS{% endblock %}
+{% block meta-description %}Letters ignite with fearless vision, shaping brands that leave a lasting mark.{% endblock %}
+{% block canonical-link %}https://studiocharacters.com/service-website-design{% endblock %}
+{% block og-url %}https://studiocharacters.com/static/images/og.png{% endblock %}
+{% block og-title %}Website Design - CHARACTERS{% endblock %}
+{% block og-sitename %}Website Design - CHARACTERS{% endblock %}
+{% block og-imgalt %}Website Design - CHARACTERS{% endblock %}
+{% block og-description %}Letters ignite with fearless vision, shaping brands that leave a lasting mark.{% endblock %}
+{% block twitter-imgalt %}Website Design - CHARACTERS{% endblock %}
+{% block twitter-title %}Website Design - CHARACTERS{% endblock %}
+{% block twitter-description %}Letters ignite with fearless vision, shaping brands that leave a lasting mark.{% endblock %}
+
+{% block content %}
+<div id="scrollWrap">
+    <!-- Main Content -->
+    <main id="service-website-1" class="w-full h-screen relative overflow-hidden bg-linear-1">
+        <a href="#" class="service-btn scale-[1] hover:scale-[1.2] transition-all duration-500">
+            <div class="relative flex justify-center items-center">
+                <img class="w-[110px] h-auto service-btn-2" src="{% static 'images/service-website-btn-2.svg' %}"
+                    alt="Service Button">
+                <img class="absolute w-[80px] h-auto" src="{% static 'images/service-website-btn-1.svg' %}"
+                    alt="Service Button">
+                <img class="absolute w-[20px] h-auto" src="{% static 'images/service-website-btn-3.svg' %}"
+                    alt="Service Button">
+            </div>
+        </a>
+        <a href="#footer-enquiry" class="cursor-none">
+            <div class="absolute w-full h-screen">
+                <img class="lg:block md:block hidden absolute h-screen w-auto lg:object-contain md:object-cover object-contain lg:object-[-50px] md:object-[-100px] object-[-50px]"
+                    src="{% static 'images/service-website-bg-2.svg' %}" alt="service-website-bg">
+                <img class="lg:block hidden absolute lg:transform-none md:transform-none transform translate-x-[30%] translate-y-[4%] rotate-[-90deg] h-screen w-auto lg:object-contain object-cover object-right"
+                    src="{% static 'images/service-website-bg-3.svg' %}" alt="service-website-bg">
+                <img class="absolute h-screen w-auto object-cover lg:object-right md:object-[-750px] object-[90%]"
+                    src="{% static 'images/service-website-bg-4.svg' %}" alt="service-website-bg">
+            </div>
+            <div class="mx-10 relative z-[4]">
+                <section class="h-[75vh] flex justify-center items-end">
+                    <h1 class="lg:block md:block hidden font-semibold lg:text-7xl text-2xl pb-36">Crafting stunning websites
+                        that<br>accelerate your business growth.</h1>
+                    <h1 class="lg:hidden md:hidden block font-semibold lg:text-7xl text-2xl pb-48">Crafting stunning websites
+                        <br>that accelerate your business growth.</h1>
+                </section>
+                <section class="h-[25vh] py-5 flex justify-center items-center">
+                    <div class="grid grid-cols-5 items-center">
+                        <div class="lg:col-start-3 col-start-1 lg:col-span-2 col-span-5">
+                            <p class="text-sm">Characters, where innovation meets impact in the digital realm. We
+                                blend creativity with cutting-edge solutions, ensuring your Websites exceeds unique
+                                goals. Elevate your presence with us - Where Every Pixel Tells a Story.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </a>
+    </main>
+
+    <main class="w-full h-screen relative bg-linear-1-invert">
+        <section class="relative w-full h-screen flex justify-center lg:items-center items-start lg:pb-0 md:pb-[20%] pb-0 lg:pt-0 md:pt-0 pt-32">
+            <div class="scroll lg:text-2xl text-1xl relative flex w-full overflow-hidden text-white border-y bg-[#414648]"
+                style="--t:50s">
+                <div>
+                    <span>Logo Design</span>
+                    <span>.</span>
+                    <span>Business Cards</span>
+                    <span>.</span>
+                    <span>Brochure design</span>
+                    <span>.</span>
+                    <span>Package Designs</span>
+                    <span>.</span>
+                    <span>Brand Guidelines</span>
+                    <span>.</span>
+                    <span>Logo Design</span>
+                    <span>.</span>
+                    <span>Business Cards</span>
+                    <span>.</span>
+                    <span>Brochure design</span>
+                    <span>.</span>
+                    <span>Package Designs</span>
+                    <span>.</span>
+                    <span>Brand Guidelines</span>
+                    <span>.</span>
+                </div>
+                <div>
+                    <span>Logo Design</span>
+                    <span>.</span>
+                    <span>Business Cards</span>
+                    <span>.</span>
+                    <span>Brochure design</span>
+                    <span>.</span>
+                    <span>Package Designs</span>
+                    <span>.</span>
+                    <span>Brand Guidelines</span>
+                    <span>.</span>
+                    <span>Logo Design</span>
+                    <span>.</span>
+                    <span>Business Cards</span>
+                    <span>.</span>
+                    <span>Brochure design</span>
+                    <span>.</span>
+                    <span>Package Designs</span>
+                    <span>.</span>
+                    <span>Brand Guidelines</span>
+                    <span>.</span>
+                </div>
+            </div>
+        </section>
+        <section class="absolute grid items-center top-0 w-full h-screen">
+            <div class="w-full h-auto grid grid-cols-3 items-center justify-center p-10">
+                <div class="characters-slider relative lg:h-[80vh] md:h-[50vh] h-[20vh] lg:col-span-2 col-span-3 bg-transparent flex justify-center items-center overflow-hidden">
+                    <picture data-slider="1" class="characters-slider-img characters-slider-img-active absolute h-auto w-full object-cover">
+                        <source srcset="
+                        {% static 'images/iconic-city-2.webp' %} 2x" type="image/webp">
+                        <source srcset="
+                        {% static 'images/iconic-city-2.jpg' %} 2x" type="image/jpeg">
+                        <img src="{% static 'images/iconic-city-2.jpg' %}" alt="Iconic City">
+                    </picture>
+                    <picture data-slider="2" class="characters-slider-img absolute h-auto w-full object-cover">
+                        <source srcset="
+                        {% static 'images/antara-yoga-club.webp' %} 2x" type="image/webp">
+                        <source srcset="
+                        {% static 'images/antara-yoga-club.jpg' %} 2x" type="image/jpeg">
+                        <img src="{% static 'images/antara-yoga-club.jpg' %}" alt="Antara Yoga Club">
+                    </picture>
+                    <picture data-slider="3" class="characters-slider-img absolute h-auto w-full object-cover">
+                        <source srcset="
+                        {% static 'images/antara-3.webp' %} 2x" type="image/webp">
+                        <source srcset="
+                        {% static 'images/antara-3.jpg' %} 2x" type="image/jpeg">
+                        <img class="lg:w-auto w-full lg:h-full h-auto max-w-none" src="{% static 'images/antara-3.jpg' %}" alt="Antaracares">
+                    </picture>
+                    <picture data-slider="4" class="characters-slider-img absolute h-auto w-full object-cover">
+                        <source srcset="
+                        {% static 'images/sree-pooja-promoters.webp' %} 2x" type="image/webp">
+                        <source srcset="
+                        {% static 'images/sree-pooja-promoters.jpg' %} 2x" type="image/jpeg">
+                        <img src="{% static 'images/sree-pooja-promoters.jpg' %}" alt="Sree Pooja promoters">
+                    </picture>
+                    <picture data-slider="5" class="characters-slider-img absolute h-auto w-full object-cover">
+                        <source srcset="
+                        {% static 'images/i2c2-1.webp' %} 2x" type="image/webp">
+                        <source srcset="
+                        {% static 'images/i2c2-1.jpg' %} 2x" type="image/jpeg">
+                        <img src="{% static 'images/i2c2-1.jpg' %}" alt="I2C2">
+                    </picture>
+                </div>
+                <div class="lg:ps-10 ps-0 lg:h-[80vh] h-[20vh] lg:col-span-1 col-span-3">
+                    <div class="characters-slider-right relative lg:h-[80vh] h-[20vh] flex flex-col justify-end overflow-hidden">
+                        <div data-slider-content="1" class="characters-slider-content characters-slider-content-active absolute mb-10">
+                            <h3 class="text-2xl uppercase mb-3">Iconic City</h3>
+                            <p>Branding / Graphic Design / Web Design</p>
+                        </div>
+                        <div data-slider-content="2" class="characters-slider-content absolute mb-10">
+                            <h3 class="text-2xl uppercase mb-3">Antara Yoga Club</h3>
+                            <p>Branding / Graphic Design / Web Design</p>
+                        </div>
+                        <div data-slider-content="3" class="characters-slider-content absolute mb-10">
+                            <h3 class="text-2xl uppercase mb-3">Antaracares</h3>
+                            <p>Branding / Graphic Design / Web Design</p>
+                        </div>
+                        <div data-slider-content="4" class="characters-slider-content absolute mb-10">
+                            <h3 class="text-2xl uppercase mb-3">Sree Pooja promoters</h3>
+                            <p>Branding / Graphic Design / Web Design</p>
+                        </div>
+                        <div data-slider-content="5" class="characters-slider-content absolute mb-10">
+                            <h3 class="text-2xl uppercase mb-3">I2C2</h3>
+                            <p>Branding / Graphic Design / Web Design</p>
+                        </div>
+                        <div class="mt-3 flex items-center">
+                            <button id="characters-slider-nav-left" class="me-3"><img class="w-[10px] h-auto" src="{% static 'images/left-solid.svg' %}" alt="Left Arrow Icon"></button>
+                            <div><span id="characters-slider-active">01</span> / <span id="characters-slider-total">05</span></div>
+                            <button id="characters-slider-nav-right" class="ms-3"><img class="w-[10px] h-auto" src="{% static 'images/right-solid.svg' %}" alt="Right Arrow Icon"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>            
+    </main>
+
+    <main class="relative">
+        <div class="service-container lg:block hidden w-auto h-screen bg-linear-1">
+            <div class="w-[194vh] h-[20vh] flex justify-center items-end mx-10">
+                <h2 class="lg:text-7xl text-7xl uppercase text-animate text-center">What we offer</h2>
+            </div>
+            <div class="h-[80vh] flex items-center">
+                <div class="flex flex-row items-center mx-20 gap-10">
+                    <div class="service-panel flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-96 bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-1.png' %}"
+                                    alt="Custom Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Custom Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Elevate your online presence with cutting-edge custom solutions, delivering
+                                    unmatched performance, security, and scalability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-96 bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-2.jpeg' %}"
+                                    alt="Brochure Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Brochure Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Showcase your brand with captivating brochure sites. Our strategic layouts
+                                    effectively communicate your message to convert visitors into loyal customers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-96 bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/packages-2.jpg' %}"
+                                    alt="e-Commerce Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        e-Commerce Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Transform online sales with beautifully designed e-commerce sites, focusing on
+                                    seamless shopping experiences and streamlined checkout processes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-96 bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-4.jpg' %}"
+                                    alt="Animated Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Animated Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Set yourself apart with dynamic, engaging websites. We infuse your brand story
+                                    with interactive elements for a memorable impression.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-96 bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-5.png' %}"
+                                    alt="WordPress Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        WordPress Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Crafting elegant, user-friendly WordPress sites tailored to your brand, ensuring
+                                    easy management and exceptional performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-96 bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-6.png' %}"
+                                    alt="Content Strategy" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Content Strategy</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Unleash the power of strategic storytelling. Our content strategies optimize
+                                    engagement and foster a strong connection with your audience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="lg:hidden block relative">
+        <div class="service-container-m lg:hidden flex flex-col w-auto h-screen bg-linear-1">
+            <div class="md:w-[90vh] w-[37vh] h-[20vh] flex justify-center items-end mx-10">
+                <h2 class="lg:text-7xl text-2xl uppercase text-animate text-center">What we offer</h2>
+            </div>
+            <div class="h-[80vh] flex items-center">
+                <div class="flex flex-row items-center mx-3 gap-10">
+                    <div class="service-panel-m flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-[38vh] bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-1.png' %}"
+                                    alt="Custom Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Custom Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Elevate your online presence with cutting-edge custom solutions, delivering
+                                    unmatched performance, security, and scalability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel-m flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-[38vh] bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-2.jpeg' %}"
+                                    alt="Brochure Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Brochure Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Showcase your brand with captivating brochure sites. Our strategic layouts
+                                    effectively communicate your message to convert visitors into loyal customers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel-m flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-[38vh] bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/packages-2.jpg' %}"
+                                    alt="e-Commerce Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        e-Commerce Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Transform online sales with beautifully designed e-commerce sites, focusing on
+                                    seamless shopping experiences and streamlined checkout processes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel-m flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-[38vh] bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-4.jpg' %}"
+                                    alt="Animated Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Animated Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Set yourself apart with dynamic, engaging websites. We infuse your brand story
+                                    with interactive elements for a memorable impression.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel-m flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-[38vh] bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-5.png' %}"
+                                    alt="WordPress Websites" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        WordPress Websites</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Crafting elegant, user-friendly WordPress sites tailored to your brand, ensuring
+                                    easy management and exceptional performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-panel-m flex flex-row items-center gap-10">
+                        <div
+                            class="section-4-panel-3-card h-auto w-[38vh] bg-white hover:bg-[#ffedcb] border border-gray-200 hover:border-white hover:scale-110 rounded-lg shadow transition-all duration-500">
+                            <a class="block p-5 overflow-hidden">
+                                <img class="h-[208px] w-full object-cover rounded-lg transition-all duration-500"
+                                    src="{% static 'images/web-develop-6.png' %}"
+                                    alt="Content Strategy" />
+                            </a>
+                            <div class="p-5 text-center">
+                                <a>
+                                    <h5 class="mb-2 text-2xl text-center uppercase font-serif">
+                                        Content Strategy</h5>
+                                </a>
+                                <p
+                                    class="mb-5 font-normal text-base text-center uppercase text-gray-500 tracking-tight">
+                                    Unleash the power of strategic storytelling. Our content strategies optimize
+                                    engagement and foster a strong connection with your audience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main>
+        <section class="w-full h-screen relative overflow-hidden bg-linear-1-invert">
+            <div class="absolute w-full h-screen">
+                <img class="lg:block hidden absolute h-screen w-auto object-contain object-top"
+                    src="{% static 'images/service-2-website-bg-1.svg' %}" alt="service-2-website-bg">
+                <img class="lg:block hidden absolute h-screen w-auto object-contain object-[-50px]"
+                    src="{% static 'images/service-2-website-bg-2.svg' %}" alt="service-2-website-bg">
+                <img class="lg:block hidden absolute h-screen w-auto object-cover object-center"
+                    src="{% static 'images/service-2-website-bg-3.svg' %}" alt="service-2-website-bg">
+                <img class="lg:block hidden absolute h-screen w-auto object-contain object-right"
+                    src="{% static 'images/service-2-website-bg-4.svg' %}" alt="service-2-website-bg">
+                <!-- Mobile -->
+                <img class="lg:hidden block absolute h-screen w-auto object-contain object-top"
+                    src="{% static 'images/service-2-m-website-bg-1.svg' %}" alt="service-2-website-bg">
+                <img class="lg:hidden block absolute h-screen w-auto object-contain object-top"
+                    src="{% static 'images/service-2-m-website-bg-2.svg' %}" alt="service-2-website-bg">
+                <img class="lg:hidden block absolute h-screen w-auto object-contain object-top"
+                    src="{% static 'images/service-2-m-website-bg-3.svg' %}" alt="service-2-website-bg">
+            </div>
+            <div class="lg:mx-24 mx-10 relative z-[4]">
+                <section
+                    class="h-screen flex lg:justify-start justify-center lg:items-center items-top lg:pt-0 pt-36">
+                    <h1 class="font-semibold lg:text-7xl text-4xl lg:text-start text-center">Our<br>approach</h1>
+                </section>
+            </div>
+        </section>
+    </main>
+</div>
+
+<footer id="footer" class="w-full h-auto relative bg-[#414648]">
+    <section id="footer-enquiry"
+        class="relative w-auto h-screen flex justify-center items-center  bg-linear-1 lg:rounded-b-[100px] rounded-b-[50px]">
+        <div class="relative w-full h-full flex justify-center items-center">
+            <div class="lg:w-9/12 w-10/12">
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+                    <div class="flex flex-col">
+                        <div class="mt-16">
+                            <h3 class="font-metro-medium font-medium lg:text-9xl text-6xl mb-5 text-animate">
+                                Get<br>in touch</h3>
+                            <p class="uppercase tracking-wide">Please contact us by filling the
+                                following form.</p>
+                        </div>
+                    </div>
+                    <div class="footer-form flex justify-center">
+                        <form action="{% url 'servicewebsitedesign' %}" method="POST"
+                            class="footer-enquiry-form-fields lg:w-9/12 w-full lg:mt-16 mt-0 font-mono text-center">
+                            {% csrf_token %}
+                            <div class="mt-2.5">
+                                {{ form.name }}
+                                <div class="relative">
+                                    <div class="w-full h-[0.1rem] bg-gray-400"></div>
+                                    <div class="form-border-2 bg-black w-full h-[0.1rem] absolute top-0 left-0">
+                                    </div>
+                                </div>
+                                {% if form.name.errors %}
+                                    <div class="text-red-500 mt-1 text-sm">{{ form.name.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2.5">
+                                {{ form.email }}
+                                <div class="relative">
+                                    <div class="w-full h-[0.1rem] bg-gray-400"></div>
+                                    <div class="form-border-2 bg-black w-full h-[0.1rem] absolute top-0 left-0">
+                                    </div>
+                                </div>
+                                {% if form.email.errors %}
+                                    <div class="text-red-500 mt-1 text-sm">{{ form.email.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2.5">
+                                {{ form.phone }}
+                                <div class="relative">
+                                    <div class="w-full h-[0.1rem] bg-gray-400"></div>
+                                    <div class="form-border-2 bg-black w-full h-[0.1rem] absolute top-0 left-0">
+                                    </div>
+                                </div>
+                                {% if form.phone.errors %}
+                                    <div class="text-red-500 mt-1 text-sm">{{ form.phone.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2.5">
+                                {{ form.price }}
+                                <div class="relative">
+                                    <div class="w-full h-[0.1rem] bg-gray-400"></div>
+                                    <div class="form-border-2 bg-black w-full h-[0.1rem] absolute top-0 left-0">
+                                    </div>
+                                </div>
+                                {% if form.price.errors %}
+                                    <div class="text-red-500 mt-1 text-sm">{{ form.price.errors }}</div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2.5">
+                                {% if form.errors %}
+                                    <ul>
+                                        {% for field in form %}
+                                            {% for error in field.errors %}
+                                                <li>{{ field.label }}: {{ error }}</li>
+                                            {% endfor %}
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </div>
+                            {% comment %} {{ form.captcha }}
+                            {% for error in form.captcha.errors %}
+                            <p>{{ error }}</p>
+                            {% endfor %} {% endcomment %}
+                            <div class="mt-10 w-full flex justify-center">
+                                <div class="w-1/2">
+                                    <button type="submit"
+                                        class="block w-full rounded-full bg-transparent px-3.5 py-2.5 text-center text-sm font-semibold ring-1 ring-black hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-all duration-500 tracking-widest">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
